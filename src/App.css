@@ -32,3 +32,9 @@ address{
 .navbar-dark {
     background-color: #512DA8;
 }
+.google {
+    border: #0f0f0f solid 1px;
+    background-color: lightskyblue;
+    font-weight: bold;
+    font-style: italic;
+}
