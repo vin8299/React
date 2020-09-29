@@ -27,7 +27,7 @@ class CommentForm extends Component {
         }
         handleSubmit(values){
             this.toggleModal();
-            this.props.postComment(this.props.dishId, values.author,values.rating, values.comment)
+            this.props.postComment(this.props.dishId, values.rating, values.author, values.comment)
         }
 
 
@@ -142,7 +142,7 @@ class CommentForm extends Component {
                                             day: '2-digit'
                                                     }).format(new Date(comment.date))
                                         }
-                                        <br/ >{comment.rating} star
+                                        <br/>{comment.rating} star
                                         </p>
                                         </Fade>
                                     </div>
